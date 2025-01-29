@@ -13,5 +13,5 @@ export default defineNuxtConfig({
       Poppins: true,
     }
   }]],
-  css: ['@/assets/css/colors.css']
+  css: ['@/assets/css/colors.css', 'boxicons/css/boxicons.min.css']
 })

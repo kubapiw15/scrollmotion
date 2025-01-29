@@ -10,6 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@highlightjs/vue-plugin": "^2.1.0",
+    "@kubapiw15/scrollmotion": "^0.2.0",
+    "boxicons": "^2.1.4",
     "nuxt": "^3.15.3",
     "vue": "latest",
     "vue-router": "latest"

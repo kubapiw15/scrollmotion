@@ -1,19 +1,45 @@
 <template>
-    <section class="component">
+    <section id="heroSection" class="component">
         <div class="content">
-            <div class="left"><h1>ScrollMotion - A simple library for scroll animations<span class="underscore">_</span></h1></div>
-            <div class="right"></div>
+            <div class="left">
+                <h1 data-sm="">ScrollMotion - A simple library for scroll animations<span class="underscore">_</span></h1>
+                <nav>
+                    <nuxt-link class="link" to="#showcase"><span>Showcase</span><i class='bx bxs-chevron-down'></i></nuxt-link>
+                    <nuxt-link class="link" to="/getstarted">Get started</nuxt-link>
+                </nav>
+            </div>
+            <div class="right" data-sm="left blur">
+                <highlightjs class="heroCode" language='xml' :code='heroCode' />
+                <highlightjs class="heroCode" language='xml' :code='heroCodeMobile' />
+            </div>
         </div>
     </section>
 </template>
 
 <script setup>
 
+    const heroCode = `
+<body>
+  <div class="container">
+    <p data-sm="right blur once">Hello world...</p>
+    <p data-sm="up zoom">That's my first library!</p>
+  </div>
+</body>
+                `
+
+                const heroCodeMobile = `
+<body>
+  <div class="container">
+    <p data-sm="right blur once">Hi...</p>
+    <p data-sm="up zoom">What's up?</p>
+  </div>
+</body>
+                `
+
 </script>
 
 <style scoped>
     .component {
-        flex: 1;
         height: 80vh;
         display: flex;
         justify-content: stretch;
@@ -23,7 +49,7 @@
 
     .content {
         flex: 1;
-        width: 70%;
+        width: 75%;
         display: flex;
         align-items: center;
         justify-content: stretch;
@@ -33,15 +59,72 @@
         color: var(--text-darkblue);
         font-size: 2.5rem;
         width: 90%;
+        margin-bottom: 8rem;
     }
 
     .right, .left {
         width: 50%;
     }
 
+    .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .underscore {
         animation: underscore 1s infinite;
         animation-timing-function: steps(1);
+    }
+
+    .link {
+        text-decoration: none;
+        font-size: 1.3rem;
+        padding: 0.8rem 1.5rem;
+        transition-duration: 0.2s;
+    }
+
+    .link:nth-of-type(1){
+        color: var(--text-dark);
+        border: 0.15rem solid var(--text-lighter);
+        background-color: var(--bg-main);
+        border-radius: 5rem;
+        margin-right: 2rem;
+        z-index: 2;
+        position: relative;
+    }
+
+    .link:nth-of-type(1) i {
+        position: absolute;
+        z-index: -1;
+        font-size: 3rem;
+        width: 100%;
+        height: 60%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 0;
+        color: var(--text-lightblue);
+        transition-duration: 0.2s;
+        pointer-events: none;
+    }
+
+    .link:nth-of-type(1):hover i {
+        transform: translateY(100%);
+    }
+
+    .link:nth-of-type(2) {
+        color: var(--bg-main);
+        background-color: var(--text-blue);
+        border: 0.15rem solid var(--text-blue);
+        border-radius: 5rem;
+    }
+
+    .link.link:nth-of-type(2):hover {
+        background-color: var(--text-lightblue);
+        border: 0.15rem solid var(--text-lightblue);
     }
 
     @keyframes underscore {
@@ -51,6 +134,50 @@
 
         50% {
             opacity: 0;
+        }
+    }
+
+    @media screen and (max-width: 1400px){
+        .content {
+            width: 90%;
+        }
+    }
+
+    @media screen and (max-width: 1000px){
+
+        h1 {
+            margin: 0;
+        }
+
+        .content {
+            width: 95%;
+            flex-direction: column;
+        }
+
+        .left, .right {
+            width: 100%;
+        }
+
+        .left {
+            height: 70%;
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .right {
+            height: 30%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .link:nth-of-type(1) i {
+            display: none;
         }
     }
 </style>

@@ -8,8 +8,15 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
   }
   html {
     font-size: 15px;
+  }
+
+  @media screen and (min-width: 2500px){
+    html {
+      font-size: 25px;
+    }
   }
 </style>
