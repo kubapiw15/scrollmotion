@@ -12,6 +12,7 @@
   }
   html {
     font-size: 15px;
+    scroll-behavior: smooth;
   }
 
   @media screen and (min-width: 2500px){

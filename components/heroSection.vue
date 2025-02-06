@@ -2,13 +2,13 @@
     <section id="heroSection" class="component">
         <div class="content">
             <div class="left">
-                <h1 data-sm="">ScrollMotion - A simple library for scroll animations<span class="underscore">_</span></h1>
+                <h1 data-sm="" data-sm-visibility="0.5">ScrollMotion - A simple library for scroll animations<span class="underscore">_</span></h1>
                 <nav>
                     <nuxt-link class="link" to="#showcase"><span>Showcase</span><i class='bx bxs-chevron-down'></i></nuxt-link>
                     <nuxt-link class="link" to="/getstarted">Get started</nuxt-link>
                 </nav>
             </div>
-            <div class="right" data-sm="left blur">
+            <div class="right" data-sm="left blur" data-sm-visibility="0.5">
                 <highlightjs class="heroCode" language='xml' :code='heroCode' />
                 <highlightjs class="heroCode" language='xml' :code='heroCodeMobile' />
             </div>
@@ -18,23 +18,19 @@
 
 <script setup>
 
-    const heroCode = `
-<body>
+    const heroCode = `<body>
   <div class="container">
     <p data-sm="right blur once">Hello world...</p>
     <p data-sm="up zoom">That's my first library!</p>
   </div>
-</body>
-                `
+</body>`
 
-                const heroCodeMobile = `
-<body>
+    const heroCodeMobile = `<body>
   <div class="container">
-    <p data-sm="right blur once">Hi...</p>
+    <p data-sm="right blur">Hi...</p>
     <p data-sm="up zoom">What's up?</p>
   </div>
-</body>
-                `
+</body>`
 
 </script>
 
@@ -178,6 +174,56 @@
 
         .link:nth-of-type(1) i {
             display: none;
+        }
+    }
+</style>
+
+<style>
+        .heroCode {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 !important;
+        width: 100%;
+        background-color: #22272e;
+        padding-block: 9rem;
+        border-radius: 0.5rem;
+        font-size: 1.1rem;
+        overflow: hidden !important;
+        user-select: text;
+    }
+
+    .heroCode .hljs {
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: auto;
+        overflow: hidden !important;
+    }
+
+    .heroCode:nth-of-type(2) {
+        display: none;
+    }
+
+    @media screen and (max-width: 1400px){
+        .heroCode {
+            font-size: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 1000px){
+        .heroCode {
+            padding-block: 0;
+            height: 100%;
+            box-sizing: border-box;
+        }
+
+        .heroCode:nth-of-type(1) {
+            display: none;
+        }
+
+        .heroCode:nth-of-type(2) {
+            display: flex;
         }
     }
 </style>

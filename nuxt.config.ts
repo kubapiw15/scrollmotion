@@ -11,6 +11,7 @@ export default defineNuxtConfig({
   modules: [['@nuxtjs/google-fonts', {
     families: {
       Poppins: true,
+      "Fira+Code": true
     }
   }]],
   css: ['@/assets/css/colors.css', 'boxicons/css/boxicons.min.css']

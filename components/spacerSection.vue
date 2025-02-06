@@ -16,6 +16,10 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        animation: fade linear;
+        animation-timeline: scroll(root block);
+        animation-range: exit 0% exit 10%;
+        opacity: 0;
     }
 
     .scroll {
@@ -53,6 +57,16 @@
         50%,100% {
             opacity: 0;
             transform: translateY(1rem);
+        }
+    }
+
+    @keyframes fade {
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
         }
     }
 </style>
