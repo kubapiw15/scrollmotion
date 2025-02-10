@@ -16,7 +16,7 @@
             </div>
             <div class="right">
                 <p class="label">Keep in mind</p>
-                <p class="description" data-sm>This library was created for personal and learning purposes. It is not intended for commercial use and may contain bugs.</p>
+                <p class="description" data-sm>This library was created for <span class="blue">personal and learning purposes</span>. It is not intended for commercial use and may contain bugs.</p>
             </div>
         </div>
     </footer>
@@ -70,7 +70,7 @@
     }
 
     .left .label {
-        margin: 0 0 1rem 0;
+        margin: 0 0 2rem 0;
         font-size: 1.3rem;
         color: var(--text-main);
         font-weight: 400;
@@ -90,7 +90,7 @@
         text-decoration: none;
         border-radius: 0.5rem;
         background-color: var(--github);
-        margin-left: 1rem;
+        margin-left: 2rem;
         color: var(--text-gray);
         transition-duration: 0.2s;
     }
@@ -121,7 +121,7 @@
     }
 
     .right .label {
-        margin: 0 0 1rem 0;
+        margin: 0 0 2rem 0;
         font-size: 1.3rem;
         color: var(--text-main);
         font-weight: 400;

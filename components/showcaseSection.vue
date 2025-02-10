@@ -4,8 +4,8 @@
             <h2>Showcase</h2>
             <div class="showcaseItem">
                 <div class="description">
-                    <h3>Default animation</h3>
-                    <p>Apply this default fade-in animation by adding <span class="blue">data-sm</span> attribute</p>
+                    <h3>Default Animation</h3>
+                    <p>Apply this default fade-in animation by adding the <span class="blue">data-sm</span> attribute</p>
                 </div>
                 <highlightjs data-sm="" class="showcaseCode" language='xml' :code='`<div data-sm=""></div>
 
@@ -15,8 +15,8 @@
             </div>
             <div class="showcaseItem">
                 <div class="description">
-                    <h3>Adding transition</h3>
-                    <p>You can add a transition effect by adding up, down, left or right inside  <span class="blue">data-sm</span></p>
+                    <h3>Adding a Transition</h3>
+                    <p>You can add a transition effect by adding "up", "down", "left" or "right" inside the <span class="blue">data-sm</span></p>
                 </div>
                 <highlightjs data-sm="left" data-sm-visibility="0.9" class="showcaseCode" language='xml' :code='`<div data-sm="left"></div>`' />
             </div>
@@ -28,8 +28,8 @@
 
             <div class="showcaseItem">
                 <div class="description">
-                    <h3>Zoom effect</h3>
-                    <p>By adding <span class="blue">zoom</span> in the attribute you can add a zoom effect to your element</p>
+                    <h3>Zoom Effect</h3>
+                    <p>By adding <span class="blue">"zoom"</span> to the attribute, you can apply a zoom effect to your element</p>
                 </div>
                 <highlightjs data-sm="zoom" class="showcaseCode" language='xml' :code='`<div data-sm="zoom"></div>`' />
             </div>
@@ -41,8 +41,8 @@
 
             <div class="showcaseItem">
                 <div class="description">
-                    <h3>One-time animation</h3>
-                    <p>Add <span class="blue">once</span> in the attribute if you want your animation to be performed only once</p>
+                    <h3>One-Time Animation</h3>
+                    <p>Add <span class="blue">"once"</span> to the attribute if you want the animation to run only once</p>
                 </div>
                 <highlightjs data-sm="once" class="showcaseCode" language='xml' :code='`<div data-sm="once"></div>`' />
             </div>
@@ -53,8 +53,8 @@
             </div>
             <div class="showcaseItem">
                 <div class="description">
-                    <h3>More examples</h3>
-                    <p>You can merge multiple animations as long as they work properly</p>
+                    <h3>More Examples</h3>
+                    <p>You can combine multiple animations as long as they function properly</p>
                 </div>
                 <highlightjs data-sm="left blur" data-sm-visibility="0.9" class="showcaseCode" language='xml' :code='`<div data-sm="left blur"></div>`' />
             </div>
@@ -183,4 +183,6 @@
             padding-block: 5rem;
         }
     }
+
+
 </style>
