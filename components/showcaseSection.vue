@@ -56,12 +56,7 @@
                     <h3>More examples</h3>
                     <p>You can merge multiple animations as long as they work properly</p>
                 </div>
-                <highlightjs data-sm="once left blur" data-sm-visibility="0.9" class="showcaseCode" language='xml' :code='`<div data-sm="once left blur"></div>`' />
-            </div>
-            <div class="showcaseItem showcaseItem-additional">
-                <div class="description">
-                </div>
-                <highlightjs data-sm="up zoom" class="showcaseCode" language='xml' :code='`<div data-sm="up zoom"></div>`' />
+                <highlightjs data-sm="left blur" data-sm-visibility="0.9" class="showcaseCode" language='xml' :code='`<div data-sm="left blur"></div>`' />
             </div>
             <div class="showcaseItem showcaseItem-additional">
                 <div class="description">
@@ -82,6 +77,7 @@
         flex-direction: column;
         justify-content: stretch;
         align-items: center;
+        padding-bottom: 10rem;
     }
 
     .content {
@@ -100,7 +96,6 @@
     }
 
     .showcaseItem {
-        /* background-color: red; */
         width: 100%;
         display: flex;
         justify-content: center;
@@ -169,7 +164,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #22272e;
+        background-color: var(--github);
         flex: 1;
         border-radius: 0.5rem;
         user-select: text;

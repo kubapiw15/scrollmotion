@@ -13,6 +13,6 @@ export default defineNuxtConfig({
       Poppins: true,
       "Fira+Code": true
     }
-  }]],
-  css: ['@/assets/css/colors.css', 'boxicons/css/boxicons.min.css']
+  }], '@nuxt/image'],
+  css: ['@/assets/css/colors.css', 'boxicons/css/boxicons.min.css', '@fortawesome/fontawesome-free/css/all.css']
 })

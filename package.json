@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
     "@highlightjs/vue-plugin": "^2.1.0",
     "@kubapiw15/scrollmotion": "^0.2.0",
     "boxicons": "^2.1.4",
@@ -18,6 +19,8 @@
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@nuxt/icon": "^1.10.3",
+    "@nuxt/image": "^1.9.0",
     "@nuxtjs/google-fonts": "^3.2.0"
   }
 }

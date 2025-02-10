@@ -5,7 +5,7 @@
                 <h1 data-sm="" data-sm-visibility="0.5">ScrollMotion - A simple library for scroll animations<span class="underscore">_</span></h1>
                 <nav>
                     <nuxt-link class="link" to="#showcase"><span>Showcase</span><i class='bx bxs-chevron-down'></i></nuxt-link>
-                    <nuxt-link class="link" to="/getstarted">Get started</nuxt-link>
+                    <nuxt-link target="blank" class="link" to="https://github.com/kubapiw15/scrollmotion/tree/main">Get started</nuxt-link>
                 </nav>
             </div>
             <div class="right" data-sm="left blur" data-sm-visibility="0.5">
