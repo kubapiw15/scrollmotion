@@ -17,7 +17,7 @@ npm install @kubapiw15/scrollmotion
 **CDN**
 
 ```js
-<script src="https://unpkg.com/@kubapiw15/scrollmotion@0.2.4/src/index.js" defer></script>
+<script src="https://unpkg.com/@kubapiw15/scrollmotion@0.2.4/dist/index.js" defer></script>
 ```
 
 tbc...
