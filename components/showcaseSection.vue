@@ -93,6 +93,7 @@
         color: var(--text-darkblue);
         padding: 2rem;
         margin-bottom: 5rem;
+        font-weight: 600;
     }
 
     .showcaseItem {
@@ -118,6 +119,7 @@
     h3 {
         font-size: 1.8rem;
         color: var(--text-main);
+        font-weight: 600;
     }
 
     p {

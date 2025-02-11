@@ -56,6 +56,7 @@
         font-size: 2.5rem;
         width: 90%;
         margin-bottom: 8rem;
+        font-weight: 600;
     }
 
     .right, .left {

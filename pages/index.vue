@@ -18,6 +18,15 @@ onMounted(()=>{
     })
 })
 
+useSeoMeta({
+  title: 'ScrollMotion',
+  ogTitle: 'ScrollMotion',
+  description: 'A JavaScript library for scroll animations.',
+  ogDescription: 'A JavaScript library for scroll animations.',
+//   ogImage: 'https://example.com/image.png',
+//   twitterCard: 'summary_large_image',
+})
+
 </script>
 
 <style>
