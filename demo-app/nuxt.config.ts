@@ -19,21 +19,21 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en'
       },
-      title: 'ScrollMotion - A JS Library for Scroll Animations',
+      title: 'ScrollMotion - A Simple JS Library for Scroll Animations',
       meta: [
         { name: 'description', content: 'ScrollMotion is a JavaScript library based on intersectionObserver API. It provides intuitive and easy-to-implement scroll animations.' },
         { name: 'author', content: 'Jakub Piwoński' },
 
         // Open Graph (Facebook)
         { property: 'og:type', content: 'website' },
-        { property: 'og:title', content: 'ScrollMotion - A JS Library for Scroll Animations' },
+        { property: 'og:title', content: 'ScrollMotion - A Simple JS Library for Scroll Animations' },
         { property: 'og:description', content: 'ScrollMotion is a JavaScript library based on intersectionObserver API. It provides intuitive and easy-to-implement scroll animations.' },
         { property: 'og:image', content: '/favicon.ico' },
         { property: 'og:url', content: 'https://scrollmotion.vercel.app' },
 
         // Twitter Cards
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'ScrollMotion - A JS Library for Scroll Animations' },
+        { name: 'twitter:title', content: 'ScrollMotion - A Simple JS Library for Scroll Animations' },
         { name: 'twitter:description', content: 'ScrollMotion is a JavaScript library based on intersectionObserver API. It provides intuitive and easy-to-implement scroll animations.' },
         { name: 'twitter:image', content: '/favicon.ico' },
       ],
@@ -48,6 +48,6 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/sitemap'],
   site: { 
     url: 'https://scrollmotion.vercel.app', 
-    name: 'ScrollMotion - A JS Library for Scroll Animations' 
+    name: 'ScrollMotion - A Simple JS Library for Scroll Animations' 
     }, 
 })
