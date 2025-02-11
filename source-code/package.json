@@ -1,8 +1,8 @@
 {
     "name": "@kubapiw15/scrollmotion",
-    "version": "0.2.4",
+    "version": "0.3.0",
     "description": "A simple library for scroll animations",
-    "main": "src/index.js",
+    "main": "dist/index.js",
     "author": {
       "name": "Jakub Piwoński",
       "email": "kubapiw15@gmail.com"
