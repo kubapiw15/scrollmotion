@@ -23,6 +23,7 @@ export default defineNuxtConfig({
       meta: [
         { name: 'description', content: 'ScrollMotion is a JavaScript library based on intersectionObserver API. It provides intuitive and easy-to-implement scroll animations.' },
         { name: 'author', content: 'Jakub Piwoński' },
+        { name: 'google-site-verification', content: 'AGas4PCynU-W0jgYGWj2uA6tR5LIF-UZe-a6zTAwO44' },
 
         // Open Graph (Facebook)
         { property: 'og:type', content: 'website' },
