@@ -1,4 +1,8 @@
 <template>
+        <noscript v-if="loaded">
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ49PTHK"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
     <div class="page">
         <HeroSection></HeroSection>
         <SpacerSection></SpacerSection>
@@ -10,20 +14,14 @@
 <script setup>
 
 import SM from '@kubapiw15/scrollmotion'
-
+const loaded = ref(false)
 onMounted(()=>{
     SM.init({
         visibility: 1,
         shift: '4rem'
     })
+    loaded.value = true
 })
-
-useHead({
-  bodyAttrs: {
-    'noscript': `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ49PTHK" height="0" width="0" style="display:none;visibility:hidden"></iframe>`
-  }
-})
-
 </script>
 
 <style>
