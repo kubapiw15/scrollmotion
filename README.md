@@ -1,7 +1,6 @@
 # ScrollMotion Library Docs
 
-Visit [scrollmotion.vercel.app](https://scrollmotion.vercel.app) to see how the library works.  
-Also see the [source code]().
+Visit [scrollmotion.vercel.app](https://scrollmotion.vercel.app) to see how the library works.
 
 ## Description
 
