@@ -1,0 +1,15 @@
+html {
+    --bg-main: rgb(231, 231, 231);
+    --bg-light: rgb(245, 245, 245);
+    --text-darkblue: rgb(29, 33, 46);
+    --text-lightblue: rgb(58, 97, 226);
+    --text-gray: rgb(151, 154, 192);
+    --text-blue: rgb(32, 53, 121);
+    --text-lighter: rgb(46, 46, 46);
+    --text-main: rgb(34, 34, 34);
+    --text-main-50: rgba(34, 34, 34, 0.5);
+    --text-main-20: rgba(34, 34, 34, 0.2);
+    --text-main-10: rgba(34, 34, 34, 0.1);
+    --text-dark: rgb(22, 22, 22);
+    --github: #22272e;
+}
