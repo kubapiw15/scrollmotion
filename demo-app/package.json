@@ -13,6 +13,7 @@
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@highlightjs/vue-plugin": "^2.1.0",
     "@kubapiw15/scrollmotion": "^0.2.4",
+    "@vercel/analytics": "^1.5.0",
     "boxicons": "^2.1.4",
     "nuxt": "^3.15.3",
     "vue": "latest",
