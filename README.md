@@ -1,75 +1,23 @@
-# Nuxt Minimal Starter
+# ScrollMotion Library Docs
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Visit [scrollmotion.vercel.app](https://scrollmotion.vercel.app) to see how the library works.  
+Also see the [source code]().
 
-## Setup
+## Description
 
-Make sure to install dependencies:
+ScrollMotion is a JavaScript library for scroll animations using intersectionObserver functionality made for easier and faster usage in HTML.
 
+## Installation
+
+**NPM**
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+npm install @kubapiw15/scrollmotion 
 ```
 
-## Development Server
+**CDN**
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+```js
+<script src="https://unpkg.com/@kubapiw15/scrollmotion@0.2.4/src/index.js" defer></script>
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+tbc...
