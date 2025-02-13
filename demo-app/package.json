@@ -14,6 +14,7 @@
     "@highlightjs/vue-plugin": "^2.1.0",
     "@kubapiw15/scrollmotion": "^0.3.0",
     "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
     "boxicons": "^2.1.4",
     "nuxt": "^3.15.3",
     "vue": "latest",
