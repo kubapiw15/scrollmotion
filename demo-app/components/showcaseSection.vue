@@ -142,6 +142,10 @@
 
     @media screen and (max-width: 1000px){
 
+        h2 {
+            margin-bottom: 2rem;
+        }
+
         .content {
             width: 95%;
         }
