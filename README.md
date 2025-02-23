@@ -22,7 +22,7 @@ import SM from '@kubapiw15/scrollmotion';
 
 ```html
 <!-- Include the ScrollMotion script in the HEAD section -->
-<script src="https://unpkg.com/@kubapiw15/scrollmotion@0.3.0/dist/index.js" defer></script>
+<script src="https://unpkg.com/@kubapiw15/scrollmotion@0.3.0/dist/index.js"></script>
 ```
 
 **Initialize the library**
@@ -77,7 +77,7 @@ You can add additional attributes (except data-sm) to customize animation settin
 - `data-sm-delay` - Animation delay in **milliseconds** (changes the element's **transition-delay** style)
 - `data-sm-opacity` - Opacity of the **hidden** element (from `0` to `1`, works well with the blur effect)
 - `data-sm-shift` - Shift of the **hidden** element (`[value][unit]`, for example: `30px`)
-- `data-sm-visibility` - Portion of the element that must be visible to trigger the animation (from `0` to `1`. `0` - any part of the element must be visible, `1` - the whole element must be visible)
-- `data-sm-scale` - The hidden element's scale (recomended range: `0.75` to `0.99`. Only if using a zoom effect)
+- `data-sm-visibility` - Portion of the element that must be **visible** to trigger the animation (from `0` to `1`. `0` - any part of the element must be visible, `1` - the whole element must be visible)
+- `data-sm-scale` - The **hidden** element's scale (recomended range: `0.75` to `0.99`. Only if using a zoom effect)
 
 tbc...
