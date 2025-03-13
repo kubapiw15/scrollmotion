@@ -135,6 +135,12 @@
         color: var(--text-darkblue);
     }
 
+    .blue {
+        color: var(--text-blue);
+        font-weight: 600;
+        font-family: "Fira Code";
+    }
+
     @media screen and (max-width: 1400px){
         .content {
             width: 90%;

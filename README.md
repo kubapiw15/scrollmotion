@@ -80,4 +80,33 @@ You can add additional attributes (except data-sm) to customize animation settin
 - `data-sm-visibility` - Portion of the element that must be **visible** to trigger the animation (from `0` to `1`. `0` - any part of the element must be visible, `1` - the whole element must be visible)
 - `data-sm-scale` - The **hidden** element's scale (recomended range: `0.75` to `0.99`. Only if using a zoom effect)
 
-tbc...
+## Changing default parameters
+You can change the default settings when initializing the library.   
+   
+The default settings:
+```js
+     SM.init({
+        duration: 500, // animation duration (in ms)
+        delay: 0, // animation delay (in ms)
+        shift: '2rem', // offset of the hidden element
+        opacity: 0, // opacity of the hidden element
+        blur: 2, // blur of the hidden element (in px)
+        scale: 0.8, // scale of the hidden element (while using zoom)
+        once: false, // animation runs only once by default
+        visibility: 0.5 // part of the element that must be visible to trigger the animation
+    })
+```
+>^ The same as SM.init()   
+
+Example of modifying the default settings:
+```js
+    SM.init({
+        duration: 1000, // animation duration set to 1 second
+        once: true, // animation runs only once by default
+        blur: 5, // blur of hidden element set to 5px
+        delay: 100 // animation delay set to 100 milliseconds
+    })
+```
+
+## Keep in mind
+This library was created for personal and learning purposes. It is not intended for commercial use and may contain bugs.
