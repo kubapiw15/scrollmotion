@@ -4,8 +4,6 @@
         <SpacerSection></SpacerSection>
         <ShowcaseSection></ShowcaseSection>
         <FooterSection></FooterSection>
-        <Analytics/>
-        <SpeedInsights/>
     </div>
 </template>
 
