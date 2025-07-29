@@ -40,8 +40,8 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:wght@400;600&display=swap' },
-        { rel: 'canonical', href: 'https://scrollmotion.vercel.app' },
-        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        { rel: "canonical", href: "https://scrollmotion.kubapiw.dev/"}
       ],
     }
   },
