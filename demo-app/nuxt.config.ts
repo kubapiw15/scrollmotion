@@ -22,7 +22,7 @@ export default defineNuxtConfig({
       title: 'ScrollMotion - A Simple JS Library for Scroll Animations',
       meta: [
         { name: 'description', content: 'ScrollMotion is a JavaScript library based on intersectionObserver API. It provides intuitive and easy-to-implement scroll animations.' },
-        { name: 'author', content: 'Jakub Piwoński' },
+        { name: 'author', content: 'kubapiw.dev' },
         { name: 'google-site-verification', content: 'AGas4PCynU-W0jgYGWj2uA6tR5LIF-UZe-a6zTAwO44' },
 
         // Open Graph (Facebook)
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
         { property: 'og:title', content: 'ScrollMotion - A Simple JS Library for Scroll Animations' },
         { property: 'og:description', content: 'ScrollMotion is a JavaScript library based on intersectionObserver API. It provides intuitive and easy-to-implement scroll animations.' },
         { property: 'og:image', content: '/favicon.ico' },
-        { property: 'og:url', content: 'https://scrollmotion.vercel.app' },
+        { property: 'og:url', content: 'https://scrollmotion.kubapiw.dev' },
 
         // Twitter Cards
         { name: 'twitter:card', content: 'summary_large_image' },
@@ -48,7 +48,7 @@ export default defineNuxtConfig({
 
   modules: ['@nuxtjs/sitemap'],
   site: { 
-    url: 'https://scrollmotion.vercel.app', 
+    url: 'https://scrollmotion.kubapiw.dev', 
     name: 'ScrollMotion - A Simple JS Library for Scroll Animations' 
     }, 
 })
