@@ -1,6 +1,6 @@
 # ScrollMotion Library Docs
 
-Visit [scrollmotion.vercel.app](https://scrollmotion.vercel.app) to see how the library works.
+Visit [scrollmotion.kubapiw.dev](https://scrollmotion.kubapiw.dev) to see how the library works.
 
 ## Description
 
