@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /login/
 Disallow: /panel/
 
-Sitemap: https://scrollmotion.vercel.app
+Sitemap: https://scrollmotion.kubapiw.dev
