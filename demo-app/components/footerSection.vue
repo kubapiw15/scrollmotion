@@ -19,6 +19,7 @@
                 <p class="description" data-sm>This library was created for <span class="blue">personal and learning purposes</span>. It is not intended for commercial use and may contain bugs.</p>
             </div>
         </div>
+        <p class="copyright">{{ `© ${new Date().getFullYear()} Jakub Piwoński. All rights reserved.` }}</p>
     </footer>
 </template>
 
@@ -139,6 +140,11 @@
         color: var(--text-blue);
         font-weight: 600;
         font-family: "Fira Code";
+    }
+
+    .copyright {
+        color: var(--github);
+        font-size: 1rem;
     }
 
     @media screen and (max-width: 1400px){

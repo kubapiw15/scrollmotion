@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 
   devServer: {
     port: 80, 
-    host: '192.168.1.137', 
+    host: 'localhost', 
   },
 
   css: ['@/assets/css/colors.css', 'boxicons/css/boxicons.min.css', '@fortawesome/fontawesome-free/css/all.css'],
